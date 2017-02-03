@@ -27,7 +27,7 @@
             { name = "vim-airline"; }
             { name = "vim-airline-themes"; }
             { name = "vim-highlightedyank"; }
-            { name = "YankRing"; }
+            # { name = "YankRing"; }
           ];
         };
       };
