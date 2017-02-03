@@ -11,6 +11,10 @@
   #extra-binary-caches = [ https://bob.logicblox.com/ ]
 
   packageOverrides = pkgs: rec {
+    pidgin-with-plugins = pkgs.pidgin-with-plugins.override {
+      plugins = [ pkgs.pidginotr pkgs.pidginosd ];
+    };
+
     neovim = pkgs.neovim.override {
       configure = {
         customRC = ''source ~/.config/nvim/init.vim'';
