@@ -22,6 +22,7 @@
           pluginDictionaries = [
             { name = "ctrlp"; }
             { name = "vim-lawrencium"; }
+            { name = "fugitive"; }
             { name = "deoplete-nvim"; ft_regex = "^vim$"; }
             { name = "deoplete-jedi"; ft_regex = "^python$"; }
             { name = "neco-vim"; }
