@@ -1,0 +1,92 @@
+pkgs: with pkgs; 
+buildEnv {
+  name = "my-env";
+  paths = [
+    neomutt
+    bc
+    neovim-remote
+    sysstat
+    mpv
+    jq
+    parallel
+    procmail
+    fetchmail
+    borgbackup
+    mupdf
+    synergy
+    gptfdisk
+    git
+    x11vnc
+    coq_8_8
+    urlview
+    rlwrap
+    xsel
+    psmisc
+    whois
+    google-cloud-sdk
+    qjoypad
+    notmuch
+    imagemagick
+    lsof
+    gqview
+    xorg.xkill
+    xdotool
+    rtorrent
+    xournal
+    ghostscript
+    libreoffice
+    inkscape
+    sshfs
+    hatari
+    unzip
+    xrestop
+    calibre
+    youtube-dl
+    rofi
+    libressl
+    samba
+    minicom
+    p7zip
+    #unar
+    htop
+    zip
+    pavucontrol
+    gnupg
+    pinentry
+    pv
+    zstd
+    httrack
+    tigervnc
+    rdesktop
+    parted
+    xorg.xwininfo
+    glxinfo
+    wavemon
+    dhall
+    xorg.xgamma
+    nload
+    xcompmgr
+    anbox
+    xorg.transset
+    xorg.xwd
+    xpra
+    ngrep
+    usbutils
+    linuxPackages.perf
+    lzip
+    sloccount
+    bind
+    unar
+    xorg.xmag
+    evtest
+    optipng
+    ffmpeg-full
+    mp3info
+    nox
+    # ADD HERE (do not delete)
+  ];
+
+  meta = {
+    priority = 0;
+  };
+}
